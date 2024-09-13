@@ -1,0 +1,140 @@
+/* List.css */
+
+/* Container style */
+.list-area {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: var(--admin-panel-add-item-color);
+  font-size: 16px;
+}
+
+.list-heading {
+  font-size: 1.2rem;
+  color: var(--admin-panel-add-item-color);
+}
+
+.list-table-item {
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Table style */
+.table {
+  border-collapse: separate;
+  border-spacing: 0.5rem;
+  /* Golden ratio for spacing between cells */
+}
+
+.table thead th {
+  /* Dark text color for contrast */
+  background: var(--light-tomato-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.table thead th button {
+  color: #fff;
+}
+
+.table tbody td {
+  font-size: 1rem;
+  /* Font size using the golden ratio */
+  padding: 1rem;
+  /* Padding based on the golden ratio */
+  color: var(--admin-panel-add-item-color);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+  /* Striped rows for better readability */
+}
+
+/* Button styles */
+.edit-button,
+.delete-button {
+  font-size: 1.2rem;
+  /* Font size using the golden ratio */
+  padding: 0.5rem;
+  /* Padding based on the golden ratio */
+  border-radius: 0.375rem;
+  /* Rounded corners for buttons */
+}
+
+.edit-button {
+  color: #007bff;
+  /* Blue color for edit icon */
+}
+
+.delete-button {
+  color: #dc3545;
+  /* Red color for delete icon */
+}
+
+/* Heading style */
+h2 {
+  font-size: 2rem;
+  /* Font size using the golden ratio */
+  color: #212529;
+  /* Dark color for headings */
+  margin-bottom: 1rem;
+  /* Margin based on the golden ratio */
+}
+
+.sort-header {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  /* Adjust size to match existing header */
+  text-align: left;
+}
+
+.sort-button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px 10px;
+  color: var(--admin-panel-add-item-color);
+}
+
+.sort-button:focus {
+  outline: none;
+  /* Remove focus outline */
+}
+
+.tiny-sort-icon {
+  margin-left: 0.25rem;
+  /* Smaller space between text and icon */
+  font-size: 0.6rem;
+  /* Smaller icon size */
+  opacity: 0.5;
+  /* Make the icon more subtle */
+  vertical-align: middle;
+  /* Align icon vertically with the text */
+  transition: opacity 0.2s ease;
+  /* Smooth transition for hover */
+}
+
+.sort-header:hover .tiny-sort-icon,
+.sort-button:hover .tiny-sort-icon {
+  opacity: 1;
+  /* Make the icon more visible on hover */
+}
+
+.list-container h2 {
+  color: var(--admin-panel-add-item-color);
+  font-size: 1.2rem;
+}
+
+.modal-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn1 {
+  margin-right: 5px;
+}

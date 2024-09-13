@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--admin-panel-bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background: var(--admin-panel-divider-color);
+}
+
+.app-content {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

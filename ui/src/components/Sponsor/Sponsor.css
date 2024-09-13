@@ -1,0 +1,20 @@
+.sponsor-container {
+    margin: 50px 0px;
+    padding: 0px 3%;
+}
+
+.sponsor-container hr {
+    margin: 40px 0px;
+    height: 2px;
+    background-color: var(--divider-color);
+    border: 0;
+}
+
+.sponsor-text {
+    margin-bottom: 30px;
+}
+
+.my-slick-sider img {
+    width: 130px;
+    border-radius: 100%;
+}

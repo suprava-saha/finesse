@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --font-family: "Pacifico", cursive;
+
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --primary-color: #262626;
+  --secondary-color: #808080;
+  --admin-panel-bg-color: #fcfcfc;
+  --link-color: #49557e;
+  --tomato-color: #FFDA43;
+  --light-tomato-color: #ff6347;
+  --button-text-color: #747474;
+  --description-color: #676767;
+  --footer-text-color: #d9d9d9;
+  --footer-bg-color: #000000;
+  --divider-color: #e2e2e2;
+  --admin-panel-divider-color: #a9a9a9;
+  --login-popup-bg-color: #00000090;
+  --input-field-border-color: #c9c9c9;
+  --checkout-color: #555555;
+  --cart-input-color: #eaeaea;
+  --place-order-input-color: #c5c5c5;
+  --admin-panel-sidebar-border-color: #a9a9a9;
+  --side-bar-active-bg-color: #fff0ed;
+  --admin-panel-add-item-color: #6d6d6d;
+  --admin-panel-list-item-borer-color: #cacaca;
+  --admin-panel-list-item-bg-color: #f9f9f9;
+  --admin-panel-all-orders-color: #505050;
+  --admin-panel-all-orders-select-menu-bg-color: #ffe8e4;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

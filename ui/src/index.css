@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --font-family: "Pacifico", cursive;
+
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --primary-color: #262626;
+  --secondary-color: #808080;
+  --link-color: #49557e;
+  --tomato-color: #FFDA43;
+  --light-tomato-color: #ff6347;
+  --button-text-color: #747474;
+  --description-color: #676767;
+  --footer-text-color: #FFDA43;
+  --footer-bg-color: #051016;
+  --divider-color: #e2e2e2;
+  --login-popup-bg-color: #00000090;
+  --input-field-border-color: #c9c9c9;
+  --checkout-color: #555555;
+  --cart-input-color: #eaeaea;
+  --place-order-input-color: #c5c5c5;
+  --navbar-profile-bg-color: #fff2ef;
+  --spinner-border-color: #bdbdbd;
+  --myorder-text-color: #454545;
+  --myorder-button-color: #ffe1e1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,115 @@
+/* List.css */
+
+/* Container style */
+.list-container {
+  padding: 2rem;
+  /* Use golden ratio for padding */
+  margin: 2rem auto;
+  max-width: 80%;
+  /* Adjust width using the golden ratio */
+}
+
+.list-area2 {
+  color: var(--admin-panel-add-item-color);
+  font-size: 16px;
+}
+
+.list-area2 h2 {
+  font-size: 1.2rem;
+  color: var(--admin-panel-add-item-color);
+}
+
+/* Table style */
+.table {
+  border-collapse: separate;
+  border-spacing: 0.5rem;
+  /* Golden ratio for spacing between cells */
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  /* Light background for the header */
+  color: #343a40;
+  /* Dark text color for contrast */
+  font-size: 1.2rem;
+  /* Font size using the golden ratio */
+  font-weight: bold;
+}
+
+.table tbody td {
+  background-color: #ffffff;
+  /* White background for table rows */
+  color: #495057;
+  /* Slightly dark text for readability */
+  font-size: 1rem;
+  /* Font size using the golden ratio */
+  padding: 1rem;
+  /* Padding based on the golden ratio */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+  /* Striped rows for better readability */
+}
+
+/* Button styles */
+.edit-button,
+.delete-button {
+  font-size: 1.2rem;
+  /* Font size using the golden ratio */
+  padding: 0.5rem;
+  /* Padding based on the golden ratio */
+  border-radius: 0.375rem;
+  /* Rounded corners for buttons */
+  cursor: pointer;
+}
+
+.edit-button {
+  color: #007bff;
+  /* Blue color for edit icon */
+}
+
+.delete-button {
+  color: #dc3545;
+  /* Red color for delete icon */
+}
+
+/* Heading style */
+h2 {
+  font-size: 2rem;
+  /* Font size using the golden ratio */
+  color: #212529;
+  /* Dark color for headings */
+  margin-bottom: 1rem;
+  /* Margin based on the golden ratio */
+}
+
+.modal-title {
+  color: var(--admin-panel-add-item-color);
+  font-size: 1.2rem;
+}
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal-form label{
+  color: var(--admin-panel-add-item-color);
+  font-size: 16px;
+}
+::placeholder{
+  color: var(--admin-panel-add-item-color);
+}
+.modal-form input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.update-btn, .cancel-btn{
+  max-width: 120px;
+  border: 0;
+  padding: 10px;
+  background: var(--black-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
