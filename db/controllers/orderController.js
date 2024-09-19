@@ -109,7 +109,7 @@ const sales = async (req, res) => {
       totalsalesreport.numberoforders += 1;
       totalsalesreport.totalitemsSold += value.items.length;
       value.items.forEach((sellingitems) => {
-        sellingitems._id in totalsalesreport.topSellingItems ? totalsalesreport.topSellingItems.sellingitems._id.quantity += sellingitems.quantity : totalsalesreport.topSellingItems[sellingitems._id] = [sellingitems.image, sellingitems.name, sellingitems.quantity, sellingitems.price]
+        sellingitems._id in totalsalesreport.topSellingItems ? totalsalesreport.topSellingItems.sellingitems._id.quantity += sellingitems.quantity : totalsalesreport.topSellingItems[sellingitems._id$oid] = [sellingitems.image, sellingitems.name, sellingitems.quantity, sellingitems.price]
       })
 
     });
